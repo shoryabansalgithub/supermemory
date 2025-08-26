@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+html, body {
+	min-height: 100%;
+}
+
+body {
+		margin: 0;
+		padding: 0;
+		color-scheme: dark;
+		font-family: "DM Sans", ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+		/* Subtle site background using the same blue/black palette */
+		background-color: #02040a;
+		background-image:
+			radial-gradient(1200px_circle_at_50%_-10%, rgba(0, 80, 255, 0.08), transparent 60%),
+			linear-gradient(180deg, rgba(0, 8, 32, 0.30), rgba(0, 0, 0, 0.92));
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+}
+
+/* Optional utility: apply the same subtle background to sections if needed */
+.bg-subtle-site {
+		background-color: #02040a;
+		background-image:
+			radial-gradient(1200px_circle_at_50%_-10%, rgba(0, 80, 255, 0.08), transparent 60%),
+			linear-gradient(180deg, rgba(0, 8, 32, 0.30), rgba(0, 0, 0, 0.92));
+}
