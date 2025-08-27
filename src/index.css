@@ -1,5 +1,14 @@
 @import "tailwindcss";
 
+/* Register custom font placed in public/assets */
+@font-face {
+	font-family: "Supermemory";
+	src: url("/assets/0601161ec7215c38.woff2") format("woff2");
+	font-style: normal;
+	font-weight: 100 900;
+	font-display: swap;
+}
+
 html, body {
 	min-height: 100%;
 }
@@ -8,7 +17,7 @@ body {
 		margin: 0;
 		padding: 0;
 		color-scheme: dark;
-		font-family: "DM Sans", ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+		font-family: "Supermemory", ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
 		/* Subtle site background using the same blue/black palette */
 		background-color: #02040a;
 		background-image:
